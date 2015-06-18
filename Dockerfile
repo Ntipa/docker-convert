@@ -20,4 +20,4 @@ RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 ENV OFFICE_HOME /usr/lib/libreoffice
 RUN echo "OFFICE_HOME $OFFICE_HOME."
 
-EXPOSE 12022
+EXPOSE 12002
